@@ -13,6 +13,16 @@
             ],
             "source": "cleanDataFrames.R",
             "target": "StateArea.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapMurderRate",
+                    "type": "png"
+                }
+            ],
+            "source": "cleanDataFrames.R",
+            "target": "StateMurderRate.png"
         }
     ],
     "nodes": [
@@ -29,6 +39,6 @@
             "name": "StateMurderRate.png"
         }
     ],
-    "updated_at": "2018-10-18 12:18:00",
+    "updated_at": "2018-10-18 12:18:40",
     "url": "https://github.com/fall2018-saltz/chriskarasinskihomework7"
 }
