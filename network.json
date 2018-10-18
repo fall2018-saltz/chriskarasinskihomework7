@@ -8,7 +8,6 @@
             "ports": [
                 {
                     "input": "dfStateInfo",
-                    "output": "dfStateInfo",
                     "type": "r_obj"
                 }
             ],
@@ -30,6 +29,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 12:03:26",
+    "updated_at": "2018-10-18 12:04:03",
     "url": "https://github.com/fall2018-saltz/chriskarasinskihomework7"
 }
