@@ -1,0 +1,70 @@
+{
+    "collaborators": [
+        "cjkarasi"
+    ],
+    "created_at": "2018-10-18 11:51:39",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "output": "mapArea",
+                    "type": "png"
+                }
+            ],
+            "source": "cleanDataFrames.R",
+            "target": "StateArea.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapMurderRate",
+                    "type": "png"
+                }
+            ],
+            "source": "cleanDataFrames.R",
+            "target": "StateMurderRate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "cleanDataFrames.R",
+            "target": "StateMurderAndPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderPopulationNorth",
+                    "type": "png"
+                }
+            ],
+            "source": "cleanDataFrames.R",
+            "target": "NorthEastMurderPopulation.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "StateArea.png"
+        },
+        {
+            "name": "StateMurderRate.png"
+        },
+        {
+            "name": "StateMurderAndPopulation.png"
+        },
+        {
+            "name": "NorthEastMurderPopulation.png"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "",
+            "name": "cleanDataFrames.R",
+            "task_status": "in progress"
+        }
+    ],
+    "updated_at": "2018-10-18 12:20:33",
+    "url": "https://github.com/fall2018-saltz/chriskarasinskihomework7"
+}
