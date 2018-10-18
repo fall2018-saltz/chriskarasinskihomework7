@@ -18,10 +18,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "cjkarasi",
             "desc": "",
-            "name": "StepB.R"
+            "name": "StepB.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 12:00:07",
+    "updated_at": "2018-10-18 12:01:34",
     "url": "https://github.com/fall2018-saltz/chriskarasinskihomework7"
 }
