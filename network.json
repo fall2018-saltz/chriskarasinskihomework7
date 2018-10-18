@@ -3,7 +3,13 @@
         "cjkarasi"
     ],
     "created_at": "2018-10-18 11:51:39",
-    "edges": [],
+    "edges": [
+        {
+            "ports": [],
+            "source": "cleanDataFrames.R",
+            "target": "StepB.R"
+        }
+    ],
     "nodes": [
         {
             "assigned_to": "cjkarasi",
@@ -16,6 +22,6 @@
             "name": "StepB.R"
         }
     ],
-    "updated_at": "2018-10-18 11:59:45",
+    "updated_at": "2018-10-18 12:00:07",
     "url": "https://github.com/fall2018-saltz/chriskarasinskihomework7"
 }
