@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "raw_data.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data",
                     "type": "csv"
                 }
@@ -27,15 +17,12 @@
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
-        },
-        {
             "name": "clean.R"
         },
         {
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-18 11:51:39",
+    "updated_at": "2018-10-18 11:51:50",
     "url": "https://github.com/fall2018-saltz/chriskarasinskihomework7"
 }
