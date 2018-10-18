@@ -62,3 +62,28 @@ dfStates <- MyData()
 
 #Create a new variable called arrests that contains the USArrests data
 arrests <- USArrests
+
+#Merge the dfStates dataset and arrests dataset based off the column StateName
+dfStateInfo <- merge(dfStates,arrests, by= "StateName")
+
+#Load in the ggplot2 package
+library(ggplot2)
+#Load in the ggpmap package
+library(ggmap)
+#read in the map data for the US states from the ggmap package
+us <- map_data("state")
+#Create a dataframe that contains the state, the longitude and latitude of the state's centers, and the area of each state
+ggStateDF <- data.frame(state.name,state.center,state.area, stringsAsFactors = FALSE)
+#Rename the state.name column for merging purposes
+colnames(ggStateDF)[1] <- "StateName"
+
+#Merge the newly created dataframe with the dfStateInfo dataframe based off StateName
+dfStateInfo <- merge(dfStateInfo,ggStateDF, by= "StateName")
+#Rename the latitude center coordinates of each state
+colnames(dfStateInfo)[11] <- "LatCenter"
+#Rename the longitude center coordinates of each state
+colnames(dfStateInfo)[10]<- "LongCenter"
+#Rename the area column for each state
+colnames(dfStateInfo)[12]<- "Area"
+#Make all of the state names lower case for ggplot purposes
+dfStateInfo$StateName <- tolower(dfStateInfo$StateName)
