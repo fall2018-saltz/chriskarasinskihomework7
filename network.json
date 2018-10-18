@@ -47,12 +47,6 @@
     ],
     "nodes": [
         {
-            "assigned_to": "cjkarasi",
-            "desc": "",
-            "name": "cleanDataFrames.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "StateArea.png"
         },
         {
@@ -63,8 +57,14 @@
         },
         {
             "name": "NorthEastMurderPopulation.png"
+        },
+        {
+            "assigned_to": "cjkarasi",
+            "desc": "",
+            "name": "cleanDataFrames.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 12:20:18",
+    "updated_at": "2018-10-18 12:20:33",
     "url": "https://github.com/fall2018-saltz/chriskarasinskihomework7"
 }
