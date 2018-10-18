@@ -97,6 +97,8 @@ colnames(dfStateInfo)[12]<- "Area"
 #Make all of the state names lower case for ggplot purposes
 dfStateInfo$StateName <- tolower(dfStateInfo$StateName)
 
+
+#Step B
 #Create a variable called map.area that reads in the dfStateInfo data and makes a map ID based off State name
 map.area <- ggplot(dfStateInfo, aes(map_id = StateName))  
 #Use the geom_map feature to base the map off the US and color fill it based off the area of each state
