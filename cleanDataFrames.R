@@ -129,6 +129,9 @@ mapMurderRate<- map.murderRate
 #The size of the circle represents the population of each state. The bigger the circle, the larger the population.
 murderPopulation <- map.murderRate + geom_point(data=dfStateInfo,aes(x = dfStateInfo$LongCenter, y = dfStateInfo$LatCenter, size = july11pop), shape=1)
 
+
+
+#Step D
 #Create a variable for the latitude of NYC
 nycLat <- 40.7128
 #Create a variable for the longitude of NYC
