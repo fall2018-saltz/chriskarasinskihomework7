@@ -3,7 +3,18 @@
         "cjkarasi"
     ],
     "created_at": "2018-10-18 11:51:39",
-    "edges": [],
+    "edges": [
+        {
+            "ports": [
+                {
+                    "output": "mapArea",
+                    "type": "png"
+                }
+            ],
+            "source": "cleanDataFrames.R",
+            "target": "StateArea.png"
+        }
+    ],
     "nodes": [
         {
             "assigned_to": "cjkarasi",
@@ -15,6 +26,6 @@
             "name": "StateArea.png"
         }
     ],
-    "updated_at": "2018-10-18 12:16:48",
+    "updated_at": "2018-10-18 12:17:12",
     "url": "https://github.com/fall2018-saltz/chriskarasinskihomework7"
 }
