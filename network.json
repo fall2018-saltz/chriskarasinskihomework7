@@ -3,33 +3,15 @@
         "cjkarasi"
     ],
     "created_at": "2018-10-18 11:51:39",
-    "edges": [
-        {
-            "ports": [
-                {
-                    "input": "dfStateInfo",
-                    "output": "dfStateInfo",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "cleanDataFrames.R",
-            "target": "StepB.R"
-        }
-    ],
+    "edges": [],
     "nodes": [
         {
             "assigned_to": "cjkarasi",
             "desc": "",
             "name": "cleanDataFrames.R",
             "task_status": "in progress"
-        },
-        {
-            "assigned_to": "cjkarasi",
-            "desc": "",
-            "name": "StepB.R",
-            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 12:10:26",
+    "updated_at": "2018-10-18 12:11:00",
     "url": "https://github.com/fall2018-saltz/chriskarasinskihomework7"
 }
