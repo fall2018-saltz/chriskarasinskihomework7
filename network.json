@@ -24,8 +24,11 @@
         },
         {
             "name": "StateArea.png"
+        },
+        {
+            "name": "StateMurderRate.png"
         }
     ],
-    "updated_at": "2018-10-18 12:17:12",
+    "updated_at": "2018-10-18 12:18:00",
     "url": "https://github.com/fall2018-saltz/chriskarasinskihomework7"
 }
