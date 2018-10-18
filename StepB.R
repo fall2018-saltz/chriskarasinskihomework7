@@ -1,5 +1,4 @@
 
-dfStateInfo <- dfStateInfo
 
 #Create a variable called map.area that reads in the dfStateInfo data and makes a map ID based off State name
 map.area <- ggplot(dfStateInfo, aes(map_id = StateName))  
