@@ -3,22 +3,8 @@
         "cjkarasi"
     ],
     "created_at": "2018-10-18 11:51:39",
-    "edges": [
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "cleanDataFrames.R",
-            "target": "data.csv"
-        }
-    ],
+    "edges": [],
     "nodes": [
-        {
-            "name": "data.csv"
-        },
         {
             "assigned_to": "cjkarasi",
             "desc": "",
@@ -26,6 +12,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 11:55:55",
+    "updated_at": "2018-10-18 11:57:25",
     "url": "https://github.com/fall2018-saltz/chriskarasinskihomework7"
 }
