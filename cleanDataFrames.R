@@ -1,4 +1,12 @@
 
+# IST 687
+# Due Date: October 18, 2018
+# Homework 2 - Submitted by Chris Karasinski on October 18, 2018
+# Portions of this code came from Introduction to Data Science
+# but the comments are all original.
+
+
+
 #Step A
 #Create a function called MyData that pulls census data from a URL and and cleans the rows and columns
 MyData <- function()
